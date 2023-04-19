@@ -10,7 +10,8 @@ var sentinel={
     country: 'India',
     isListed: false,
 }
-
+console.log("Type of 'sentinel': ", typeof sentinel);
+console.log("\n");
 //**1. Access the property value from object */
 console.log(sentinel.name);
 
